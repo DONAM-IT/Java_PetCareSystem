@@ -1,0 +1,34 @@
+﻿ 
+RECIPE FOR COOKING A JAVA APP
+1.Nhận diện trong bài toán, trong thế giới quanh ta các object thông qua việc tìm dặc điểm (mà: xanh, đỏ; giá: 5k, 6k, tên: An
+Bình...) và hành vi. Trong đám obj này, phân nhóm, phân loại, phân hạng, gom những đứa đồng dạng về cùng 1 cụm, gọi là Class
+:đám sủa gâu gâu ->Dog đám kêu miu miu -> Cat, đám này chơi game và dùng soucre thi final - >  Student
+
+2. Tạo mới project/tạo mới class, ví dụ public class Dog {...}, nhớ chỉ ra package, nơi khuôn, class nằm
+
+3. Tạo ra các đăc điểm/ field/property/atttribute/characteristic,  thường để là private
+ví dụ: private String name;
+
+4. Tạo phễu/constructor để đổ vào bên trong, xài tự gõ hãy Alt-Insert chèn code tự động (nhớ tui à nghen, this đó)
+
+5. Tao getX() và set(), tự gõ hay Alt-Insert
+
+6. Tạo toString(), tự gõ hay Alt-Insert
+
+7.Tạo các hàm của riêng mình, để xử lí info của object (ko tự động đc) ví dụ public int getAge(),public double getArea(), showProfile(), brak
+()
+-----Done cho khuôn
+
+8. Sang main(), khai báo biến object và gọi hàm new kèm phễu đổ info vào. Nhớ import, và có thể Scanner data từ bán phím để đổ vào
+ví dụ Dog chiHu = new Dog(...info cứng, hay là mềm từ Scanner);
+
+9. Sử dụng dấy Chấm để sờ vào bên trong obj, gọi hàm xử lí data ví dụ chiHu.bark(), d1.getArea(), chiPu.getAge()
+
+10. Ép Sáu và tận hưởng, ahihi
+
+BTVN:
+1. Hoàn thiện app Bé Na, HCN, Tròn, Tam Giac thường (a, b, c), vuông (2 cạnh vuông) -> công thức Heron, nhớ có input
+
+2. Cả lớp mình đi mở tài khoản ngân hàng, Tk: số tk, tên chủ tk, số dư (balance), hành động: rút, nạp, vấn tin số dư (hăc não: Lịch sử giao dịch)
+
+Nộp bài:  deadline: 12h trưa ngày CN 2.6.2019, LMS HoangNT_Assgnment 5;
